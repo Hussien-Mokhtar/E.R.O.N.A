@@ -7,9 +7,9 @@ export default function Shop4() {
     
       <motion.div
          animate={{ y: [0, -30, 0] }}transition={{ duration: 2, repeat: Infinity }} className=" relative">
-        <div className="container mx-auto px-8 my-20 lg:w-60 w-full ">
+        <div className="container mx-auto px-8 lg:my-20 lg:w-60 w-full ">
 
-            <img variant="top" src={shirt} className=" border-[8px] border-white pb-12 "/>
+            <img variant="top" src={shirt} className=" border-[8px] border-white "/>
          
             <div className=" absolute bottom-2 left-16 text-center">
             <h5 className="font-extrabold lg:ml-0 ml-16">Men Shirt</h5>
@@ -20,7 +20,7 @@ export default function Shop4() {
       </motion.div>
 
 <motion.div className="lg:py-20" animate={{ y: [0, 30, 0] }}transition={{ duration: 2, repeat: Infinity }} >
-<img src={collection} alt="collection" className="lg:w-44 lg:ml-10 py-6 w-full"/>
+<img src={collection} alt="collection" className="lg:w-44 lg:ml-10 lg:py-6 w-full"/>
 
 </motion.div>
     </>

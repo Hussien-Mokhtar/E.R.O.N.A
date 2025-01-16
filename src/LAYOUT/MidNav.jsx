@@ -3,7 +3,7 @@ import eronalogo from "../assets/erona-logo.webp"
 import { IoPersonOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../USE-CONTEXT/CartContext';
 

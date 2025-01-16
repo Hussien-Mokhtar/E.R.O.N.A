@@ -2,7 +2,7 @@
 export default function Home7() {
   return (
     <>
-      <div className="flex w-[90%] mx-auto lg:flex-row flex-col justify-between items-center mt-28 pb-8">
+      <div className="flex w-[90%] mx-auto lg:flex-row flex-col justify-between items-center mt-8 pb-8">
 
         <h1 className=" lg:text-5xl text-3xl mb-3 font-bold" 
           data-aos="fade-right" data-aos-duration="1000"

@@ -17,12 +17,13 @@ export default function Home6Dynamic({ slider6 }) {
         </h4>
         <div className="">
         </div>
-        <div className=" title2 absolute opacity-0  gap-1 text-5xl  flex justify-center items-center">
+        <div className=" title2 absolute opacity-0 gap-1 text-5xl flex justify-center items-center">
           <FaRegHeart className=" bg-white p-3 hover:bg-orange-500 hover:text-white duration-500 " />
           <FiShoppingBag className=" bg-white p-3 hover:bg-orange-500 hover:text-white duration-500" />
           <IoEyeOutline className=" bg-white p-3 hover:bg-orange-500 hover:text-white duration-500" />
         </div>
       </div>
     </div>
-  );
+  ); 
 }
+ 

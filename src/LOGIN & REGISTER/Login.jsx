@@ -42,7 +42,7 @@ export default function Login() {
           setEmail("");
           setPassword("");
       
-
+      
         } else {
           console.error("Error:", data.message);
           alert(data.message); 
@@ -58,7 +58,7 @@ export default function Login() {
           <UpNav/>
       <MidNav/>
       <hr />
-      <DownNav/>
+      
       <motion.div className="bg lg:text-xl text-sm "
     initial={{ x: '-150%' }}
    animate={{ x: 0 }}
@@ -76,7 +76,7 @@ export default function Login() {
    <img src={login} alt="Login-img" className="lg:w-full" />
    </motion.div>
    
-        <Card className=" lg:w-[80%] lg:h-[80%] mt-10">
+        <Card className=" lg:w-[80%] lg:h-[80%] my-10">
       <form className="flex flex-col gap-4" onSubmit={submitHandler}>
         <div> 
           <div className="mb-2 block">
@@ -103,7 +103,7 @@ export default function Login() {
 
 </div>
         <button type="submit" className="bg-black hover:bg-orange-500 text-white py-4 rounded-md font-bold lg:text-xl mt-4">SIGN IN</button>
-        <button type="submit" className="bg-black hover:bg-orange-500 text-white py-4 rounded-md font-bold lg:text-xl">Don't have account? <span className=" cursor-pointer hover:underline pl-2"><Link to="/register">Create account</Link></span>
+        <button type="submit" className="bg-black hover:bg-orange-500 text-white py-4  rounded-md font-bold lg:text-xl">Don't have account? <span className=" cursor-pointer hover:underline pl-2"><Link to="/register">Create account</Link></span>
         </button>
 
 
@@ -113,6 +113,7 @@ export default function Login() {
     </Card>
 
       </div>
+      <DownNav/>
       <Footer1/>
       <ArrowTop/>
     </>

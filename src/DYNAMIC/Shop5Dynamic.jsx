@@ -8,10 +8,10 @@ export default function Shop5Dynamic({shop5}) {
   return (
     <>
     
-    <Link to={`/shopdetails/${shop5.id}`}> 
+    {/* <Link to={`/shopdetails/${shop5.id}`}> 
     
       <div className=" parentt2 px-4 pt-20 flex flex-col justify-center items-center ">
-        <div className=" relative flex justify-center items-center ">
+        <div className=" relative flex justify-center items-center  ">
           <img src={shop5.thumbnail_img} alt={shop5.name} className=" h-[15rem]" />
           
         </div>
@@ -29,7 +29,30 @@ export default function Shop5Dynamic({shop5}) {
           </div>
         </div>
       </div>
-      </Link>
+      </Link> */}
+          <Link to={`/shopdetails/${shop5.id}`}> 
+    
+    <div className=" parentt2 px-4 pt-20 flex flex-col justify-center items-center ">
+      <div className=" relative flex justify-center items-center  ">
+        <img src={shop5.img} alt="img" className=" h-[15rem]" />
+        
+      </div>
+      <div className="py-2">
+        <h4 className=" font-bold text-center text-xl flex justify-center items-center pb-2">
+          {shop5.title1}
+        </h4>
+        <h4 className=" text-orange-500 font-bold flex justify-center items-center gap-2">
+          {shop5.price1} <del className=" text-black">{shop5.price2}</del>
+        </h4>
+        <div className=" title2 absolute opacity-0 gap-1 text-5xl lg:ml-4 flex justify-center items-center">
+          <FaRegHeart className=" bg-white p-3 hover:bg-orange-500 hover:text-white duration-500 " />
+          <FiShoppingBag className=" bg-white p-3 hover:bg-orange-500 hover:text-white duration-500" />
+          <IoEyeOutline className=" bg-white p-3 hover:bg-orange-500 hover:text-white duration-500" />
+        </div>
+      </div>
+    </div>
+    </Link>
+
     </>
   );
 }

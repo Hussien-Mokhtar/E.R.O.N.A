@@ -20,6 +20,6 @@ export default function MainShop() {
 
     <Footer1/>
     <ArrowTop/>
-    </>
+    </> 
   )
 }

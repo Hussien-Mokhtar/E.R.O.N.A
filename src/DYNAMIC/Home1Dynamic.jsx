@@ -4,11 +4,17 @@ export default function Home1Dynamic({ slider1 }) {
     <>
 
       <motion.div >  
-        <img
+        {/* <img
           src={slider1.photo}
           alt="background img"
           className=" w-full lg:h-[30rem] h-[20rem] mx-auto" 
+        /> */}
+                <img
+          src={slider1.img}
+          alt="background img"
+          className=" w-full lg:h-[30rem] h-[20rem] mx-auto" 
         />
+
       </motion.div>
 
     </>

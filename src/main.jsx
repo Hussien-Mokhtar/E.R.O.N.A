@@ -21,7 +21,6 @@ import Checkout3 from './CHECKOUT-PAGE/Checkout3.jsx';
 import Checkout4 from './CHECKOUT-PAGE/Checkout4.jsx';
 import Checkout5 from './CHECKOUT-PAGE/Checkout5.jsx';
 import { CartProvider } from './USE-CONTEXT/CartContext.jsx';
-// import Redux1 from './REDUX/Redux1.jsx';
 import { Provider } from 'react-redux';
 import { store } from './REDUX/index.jsx';
 import Logout from './LOGIN & REGISTER/Logout.jsx';
@@ -119,15 +118,7 @@ element:<Login/>
   element:<BlogDetails/>
 },
 
-
-
-// {
-//   path:"/redux1",
-//   element:<Redux1/>
-// },
 ])
-
-
 
 createRoot( document.getElementById('root')).render(
   <CartProvider>
